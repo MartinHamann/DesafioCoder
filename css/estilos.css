@@ -20,16 +20,27 @@ body {
     .border {
         border: solid 1px black;
     }
+    .gradienteLineal{
+        background: linear-gradient(blue, rgb(129, 158, 251), blue, rgb(129, 158, 251), blue);
+    }
     span {
-        background-color: blue;
+        background: linear-gradient(90deg, blue, rgb(129, 158, 251), blue);
         margin: 5px;
         padding: 10px 25px;
         text-align: center;
-        color: white
+        color: black;
+        font-weight: bold;
     }
     span:hover {
         opacity: 0.5;
         cursor: pointer;
+    }
+    .transicion{
+        transition: width 1s, height 1s;
+    }
+    .transicion:hover{
+        width: 30px;
+        height: 30px;
     }
     section {
         text-align: center;
@@ -123,19 +134,30 @@ body {
     .border {
         border: solid 1px black;
     }
+    .gradienteLineal{
+        background: linear-gradient(blue, rgb(129, 158, 251), blue, rgb(129, 158, 251), blue);
+    }
     span {
         display: flex;
-        background-color: blue;
+        background: linear-gradient(90deg, blue, rgb(129, 158, 251), blue);
         margin: 10px;
         padding: 10px 25px;
         text-align: center;
-        color: white;
+        color: black;
         justify-content: center;
+        font-weight: bold;
 
     }
     span:hover {
         opacity: 0.5;
         cursor: pointer;
+    }
+    .transicion{
+        transition: width 1s, height 1s;
+    }
+    .transicion:hover{
+        width: 30px;
+        height: 30px;
     }
     section {
         text-align: center;
@@ -235,17 +257,27 @@ body {
     .border {
         border: solid 1px black;
     }
+    .gradienteLineal{
+        background: linear-gradient(blue, rgb(129, 158, 251), blue, rgb(129, 158, 251), blue);
+    }
     span {
-        background-color: blue;
+        background: linear-gradient(90deg, blue, rgb(129, 158, 251), blue);
         margin: 10px;
         padding: 10px 25px;
         text-align: center;
-        color: white;
-
+        color: black;
+        font-weight: bold;
     }
     span:hover {
         opacity: 0.5;
         cursor: pointer;
+    }
+    .transicion{
+        transition: width 1s, height 1s;
+    }
+    .transicion:hover{
+        width: 30px;
+        height: 30px;
     }
     section {
         text-align: center;
